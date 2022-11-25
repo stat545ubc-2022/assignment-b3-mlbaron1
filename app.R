@@ -5,7 +5,6 @@
 # Find out more about building applications with Shiny here: http://shiny.rstudio.com/
 #
 
-#if (interactive()) { #adding this as some apps for interactive colors added this, surrounded whole code in this bracket
 
 #relevant libraries used
 library(shiny)
@@ -73,7 +72,6 @@ server <- function(input, output) { #requires input & output elements (sometimes
     })
   
 }
-#} #enclosing bracket for interactive bit
 
 shinyApp(ui = ui, server = server)
 
