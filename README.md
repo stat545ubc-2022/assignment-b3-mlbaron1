@@ -17,13 +17,22 @@ Credit: BC liquor data class was provided by STAT 545 and https://deanattali.com
 
 For Assignment B-4
 
+Click on the following link to view my shiny app on the web: 
+https://z2rq7c-michelle-kamigaki0baron.shinyapps.io/vowel_chart/
+
+
 This app is Option C & starting a new shiny app from scratch. 
-The purpose of this app is to showcase work that I do to a semi-informed linguistic audience. 
-The app describes the research project and demonstrates the paradigm using relavant imagery, sound, and interactive plot visualizations. There is text which helps guide the reader through the research.
+
 
 The following features were adopted by this app: 
 1) Soundfiles which are interactable (you may play and download the sounds). 
 2) Relevant imagery.
 3) Functional email link to contact me at.
-4) Interactive ggplot ellipse visualization where the viewer is able to see the relavant contrast that was the main finding in the study.  
+4) Interactive ggplot ellipse visualization demonstrating the vowel mappings in F1-F2 space to illustrate where the vowels are mapped in the study. 
+5) pickerInput widget to interact with visualization to select high vowels vs non-high vowels to demonstrate the main effect seen in the study. 
 
+App design
+The purpose of this app is to showcase work that I do to a semi-informed linguistic audience. 
+The app describes the research project and demonstrates the paradigm using relavant imagery, sound, and interactive plot visualizations. There is text which helps guide the reader through the research.
+
+Credit: all work is my own. 
