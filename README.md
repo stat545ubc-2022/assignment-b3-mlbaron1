@@ -28,5 +28,5 @@ The following features were adopted by this app:
 1) Soundfiles which are interactable (you may play and download the sounds). 
 2) Relevant imagery.
 3) Functional email link to contact me at.
-4) Interactive ggplot ellipse visualization where the viewer is able to see the relavant contrast that was the main finding in the study.  
-
+4) Interactive ggplot ellipse visualization demonstrating the vowel mappings in F1-F2 space to illustrate where the vowels are mapped. 
+5) pickerInput widget to interact with visualization to select high vowels vs non-high vowels to demonstrate the main effect seen in the study. 
