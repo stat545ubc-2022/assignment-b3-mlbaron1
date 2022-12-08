@@ -45,23 +45,24 @@ ui <- fluidPage(
   titlePanel("The Vowel System in Secwepemctsín"), #title page
   h5("Research and webpage by Michelle Kamigaki-Baron"), #header
   a(href="mailto:michelle.baron@ubc.ca", "Click here to contact me 📧 michelle.baron@ubc.ca "), #adding an email link
+  h5("The purpose of this webpage is for semi-informed linguistic audiences to interface with the findings of this study."),
   br(), #line break
   sidebarPanel( #side panel positioning
     tags$h5("Kuipers (1979) describes 3 types of vowels in Secwepemctsín:"), #text
     img(width = "100%", src='3_types.png', align = "center"), #add picture
     tags$h5("Some examples:"),
     tags$h5("á & a: cneq̓átkwa (polluted water)"),
-    tags$audio(src = "polluted water.mp3", type = "audio/mp3", autoplay = NA, controls = NA), #adding audio
+    tags$audio(src = "polluted water.mp3", type = "audio/mp3", autoplay = FALSE, controls = NA), #adding audio
     tags$h5("é & e: menmén (shade)"),
-    tags$audio(src = "shade.mp3", type = "audio/mp3", autoplay = NA, controls = NA),
+    tags$audio(src = "shade.mp3", type = "audio/mp3", autoplay = FALSE, controls = NA),
     tags$h5("í & i: i7í7tc (pocket knife)"),
-    tags$audio(src = "pocket knife.mp3", type = "audio/mp3", autoplay = NA, controls = NA),
+    tags$audio(src = "pocket knife.mp3", type = "audio/mp3", autoplay = FALSE, controls = NA),
     tags$h5("ó & o: kóso (pig)"),
-    tags$audio(src = "pig.mp3", type = "audio/mp3", autoplay = NA, controls = NA),
+    tags$audio(src = "pig.mp3", type = "audio/mp3", autoplay = FALSE, controls = NA),
     tags$h5("ú & u: k̓ut̓múy̓e (a walk for pleasure)"),
-    tags$audio(src = "walk.mp3", type = "audio/mp3", autoplay = NA, controls = NA),
+    tags$audio(src = "walk.mp3", type = "audio/mp3", autoplay = FALSE, controls = NA),
     tags$h5("ə: mstntsútk (to try)*"),
-    tags$audio(src = "to try.mp3", type = "audio/mp3", autoplay = NA, controls = NA),
+    tags$audio(src = "to try.mp3", type = "audio/mp3", autoplay = FALSE, controls = NA),
     tags$h6("*The vowel ə is not written. Listen for it between the m and s sounds!")
     )
   ,
