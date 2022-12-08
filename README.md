@@ -23,7 +23,7 @@ The app describes the research project and demonstrates the paradigm using relav
 
 The following features were adopted by this app: 
 1) Soundfiles which are interactable (you may play and download the sounds). 
-2) Images
-3) Functional email link to contact me at
+2) Relevant imagery.
+3) Functional email link to contact me at.
 4) Interactive ggplot ellipse visualization where the viewer is able to see the relavant contrast that was the main finding in the study.  
 
