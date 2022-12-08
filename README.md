@@ -35,3 +35,4 @@ App design
 The purpose of this app is to showcase work that I do to a semi-informed linguistic audience. 
 The app describes the research project and demonstrates the paradigm using relavant imagery, sound, and interactive plot visualizations. There is text which helps guide the reader through the research.
 
+Credit: all work is my own. 
